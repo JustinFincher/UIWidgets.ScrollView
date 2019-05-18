@@ -1,0 +1,15 @@
+{
+  "name": "com.justzht.uiwidgets.scrollview",
+  "displayName": "UIWidgets 2D ScrollView",
+  "version": "0.0.1-preview",
+  "unity": "2018.3",
+  "description": "A custom 2d ScrollView for UIWidgets",
+  "keywords": [
+    "scrollview",
+    "uiwidgets",
+    "flutter"
+  ],
+  "dependencies": {
+    "com.unity.uiwidgets": "https://github.com/UnityTech/UIWidgets.git"
+  }
+}
