@@ -130,7 +130,7 @@ namespace FinGameWorks.Scripts.Views
             (
                 onLongPressDragUpdate: details =>
                 {
-                    Debug.Log("onLongPressDragUpdate");
+//                    Debug.Log("onLongPressDragUpdate");
                 }, 
                 onScaleStart: details =>
                 {
@@ -140,7 +140,7 @@ namespace FinGameWorks.Scripts.Views
                 },
                 onScaleUpdate: details =>
                 {
-                    Debug.Log("onScaleUpdate");
+//                    Debug.Log("onScaleUpdate");
                     MoveEndVelocity = Offset.zero;
                     float scaleDiff = previousScale * (details.scale - 1);
                     if (aimedScale >= widget.MaxScale && scaleDiff > 0)
@@ -168,7 +168,7 @@ namespace FinGameWorks.Scripts.Views
                 }, 
                 onVerticalDragUpdate: details =>
                 {
-                    Debug.Log("onVerticalDragUpdate");
+//                    Debug.Log("onVerticalDragUpdate");
                     if (details.isScroll)
                     {
                         float scaleDiff = details.delta.dy / MediaQuery.of(context).size.height;
