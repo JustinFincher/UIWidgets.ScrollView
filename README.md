@@ -8,7 +8,7 @@ Add this line to your package.json dependencies list
 ```
 
 # Usage
-```
+```csharp
 new ScrollView
 (
 Widget child,  // child, usually a container
