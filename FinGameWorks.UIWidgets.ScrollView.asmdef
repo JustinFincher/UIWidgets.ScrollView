@@ -1,0 +1,16 @@
+﻿{
+	"name": "FinGameWorks.UIWidgets.ScrollView",
+"references": [
+"FinGameWorks.UIWidgets.Helpers",
+        "Unity.UIWidgets"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

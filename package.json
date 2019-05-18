@@ -7,9 +7,11 @@
   "keywords": [
     "scrollview",
     "uiwidgets",
-    "flutter"
+    "flutter",
+    "unity"
   ],
   "dependencies": {
-    "com.unity.uiwidgets": "https://github.com/UnityTech/UIWidgets.git"
+    "com.unity.uiwidgets": "https://github.com/UnityTech/UIWidgets.git",
+    "com.justzht.uiwidgets.helper": "https://github.com/JustinFincher/UIWidgets.Helpers.git"
   }
 }
